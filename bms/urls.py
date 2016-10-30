@@ -15,13 +15,8 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
-from bms import views
+
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-<<<<<<< HEAD
-	url(r'^main/', views.main, name="main"),
-=======
-	url(r'^$', views.main, name='main')
->>>>>>> d6dbea47faa10f70e2030fb8f64b4d3241f4c055
 ]
